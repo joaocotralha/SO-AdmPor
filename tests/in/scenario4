@@ -1,0 +1,17 @@
+; tamanho máximo da linha = 500 chars
+[OPERACOES]
+CAPACIDADE_PORTUARIA = 10 12 8 14 15 6
+
+[CLIENTES]
+OPERACAO = 0 1 2 3 4 5 4 3 2 1 0 0 1 2 3 4 5 4 3 2 1 0 0 1 2 3 4 5 4 3 2 1 0 0 1 2 3 4 5 4 3 2 1 0 0 1 2 3 4 5 4 3 2 1 0 0 1 2 3 4 5 4 3 2 1 0 0 1 2 3 4 5 4 3 2 1 0 0 1 2 3 4 5 4 3 2 1 0
+; número de operações que um cliente pode efetuar é indicada em N
+N = 5
+
+[INTERMEDIARIOS]
+LIST = A1 A2
+
+[EMPRESAS]
+OPERACOES = 0,1 2,3 4 5
+
+[BUFFERS]
+CAPACIDADE_BUFFER = 2 2 10
