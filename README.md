@@ -29,10 +29,10 @@ O ficheiro script.sh recebe o nome **(não o path)** de dois ficheiros que estej
 
 ## Limitações
 ---
-A função time\_write\_log_timed (time.c) não está devidamente implementada, logo 
+time\_write\_log_timed (time.c) não está devidamente implementada, logo 
 o output para a consola não é completamente correto.
 
-A função time_difference (time.c) tem problemas em tempos com valores em ordens 
+time_difference (time.c) tem problemas em tempos com valores em ordens 
 de unidades diferentes e como tal alguns cálculos vão resultar em erro.
 
 file\_write\_log_file (file.c) está incorretamente implementada, os ficheiros
