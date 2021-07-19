@@ -10,6 +10,8 @@ O propósito geral do projeto será simular o fluxo central de um serviço de ad
 2. Emissão de pedidos destas operações.
 3. Agendamento/execução das mesmas. De forma a se poder aferir a qualidade do serviço prestado, são também registadas informações de progresso sob a forma de um *log*, que podem posteriormente ser analisadas.
 
+**Tecnologias principais:** Multi-threading, memory buffers, semáforos, locks, sinais e alarmes .
+
 Todo o projeto e a sua especificação encontra-se apresentada em maior detalhe em ambos enunciados.
 
 ---
